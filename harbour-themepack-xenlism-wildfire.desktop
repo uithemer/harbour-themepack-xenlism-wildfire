@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-themepack-xenlism-wildfire
+Exec=invoker --type=generic -s /usr/bin/harbour-themepack-xenlism-wildfire
+Name=Xenlism Wildfire
