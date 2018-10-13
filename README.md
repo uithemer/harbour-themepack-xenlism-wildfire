@@ -16,7 +16,7 @@ Documentation on how to create theme packs available [here](https://fravaccaro.g
 
 Languages supported:
 
-[![Languages supported](https://www.transifex.com/_/charts/redirects/fravaccaro/numix-circle/image_png/harbour-themepack-xenlism-wildfirets)](https://www.transifex.com/fravaccaro/xenlism-wildfire/dashboard/)
+[![Languages supported](https://www.transifex.com/_/charts/redirects/fravaccaro/xenlism-wildfire/image_png/harbour-themepack-xenlism-wildfirets)](https://www.transifex.com/fravaccaro/xenlism-wildfire/dashboard/)
 
 Request a new language or contribute to existing languages on the [Transifex project page](https://www.transifex.com/fravaccaro/xenlism-wildfire/dashboard/).
 

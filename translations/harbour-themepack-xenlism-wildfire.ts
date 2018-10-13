@@ -4,14 +4,6 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <source>Thank you for installing Numix Circle!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Released under the GNU GPLv3 license. Based on &lt;a href=&apos;https://github.com/numixproject/numix-icon-theme-circle&apos;&gt;Numix Circle by Numix Project&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation type="unfinished"></translation>
     </message>
@@ -68,15 +60,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Numix Circle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>By requesting new icons, you accept sending the name of the unthemed apps installed on your device, along with your e-mail address. This data will be used by me only for the intended purpose and NEVER disclosed to thirdy parties. Your app names and e-mail address will be deleted right after.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>If you plan to request icons, please consider to donate! It helps me staying motivated and maintaining the project.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Xenlism Wildfire</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you for installing Xenlism Wildfire!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Released under the GNU GPLv3 license. Based on &lt;a href=&apos;https://github.com/xenlism/wildfire&apos;&gt;Xenlism Wildfire&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
