@@ -57,6 +57,7 @@ Page
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
                 text: qsTr("Released under the GNU GPLv3 license. Based on <a href='https://github.com/xenlism/wildfire'>Xenlism Wildfire</a>.")
+                onLinkActivated: Qt.openUrlExternally(link)
             }
 
             Button {
@@ -150,18 +151,6 @@ Page
 
               AboutLanguage { text: "Italiano" }
               AboutTranslator { text: "Francesco Vaccaro" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Magyar" }
-              AboutTranslator { text: "Szabó G." }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Nederlands" }
-              AboutTranslator { text: "Nathan Follens" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Neerlandais (Belgique)" }
-              AboutTranslator { text: "Nathan Follens" }
               Item { width: parent.width; height: Theme.paddingLarge }
 
               Label {
