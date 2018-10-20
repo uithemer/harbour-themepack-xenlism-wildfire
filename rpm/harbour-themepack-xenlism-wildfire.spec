@@ -13,7 +13,7 @@ Name:       harbour-themepack-xenlism-wildfire
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        Xenlism Wildfire icon pack
-Version:        0.1.1
+Version:        0.1.2
 Release:        1
 Group:          Qt/Qt
 License:        GPLv3
@@ -84,6 +84,10 @@ if [ "$1" = "1" ]; then
 fi
 
 %changelog
+* Sat Oct 20 2018 0.1.2
+- DynClock support.
+- Translations updated.
+
 * Fri Oct 19 2018 0.1.1
 - DynCal support.
 - Icons added
