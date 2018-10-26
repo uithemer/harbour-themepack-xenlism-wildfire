@@ -29,8 +29,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Xenlism Wildfire icon pack for Sailfish OS.
-
+Xenlism Wildfire theme pack for Sailfish OS.
 
 %prep
 %setup -q -n %{name}-%{version}
