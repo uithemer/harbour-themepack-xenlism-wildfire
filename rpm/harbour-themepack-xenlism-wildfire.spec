@@ -21,7 +21,7 @@ Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/harbour-themepack-xenlism-wildfire
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      harbour-themepack-xenlism-wildfire.yaml
-Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.0.8-1
+Requires:       sailfishsilica-qt5 >= 0.10.9, sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.0.8-1
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
