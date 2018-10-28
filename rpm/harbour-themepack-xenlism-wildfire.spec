@@ -17,6 +17,7 @@ Version:    0.1.3
 Release:    4
 Group:      Qt/Qt
 License:    GPLv3
+Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:        https://github.com/fravaccaro/harbour-themepack-xenlism-wildfire
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-themepack-xenlism-wildfire.yaml
