@@ -157,6 +157,10 @@ Page
               AboutTranslator { text: "Francesco Vaccaro" }
               Item { width: parent.width; height: Theme.paddingLarge }
 
+              AboutLanguage { text: "Polski" }
+              AboutTranslator { text: "kloszes" }
+              Item { width: parent.width; height: Theme.paddingLarge }
+
               Label {
                   x: Theme.paddingLarge
                   width: parent.width - (x * 2)

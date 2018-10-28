@@ -12,16 +12,15 @@ Name:       harbour-themepack-xenlism-wildfire
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
-Summary:        Xenlism Wildfire icon pack
-Version:        0.1.2
-Release:        1
-Group:          Qt/Qt
-License:        GPLv3
-Packager:       fravaccaro <fravaccaro@jollacommunity.it>
-URL:            https://github.com/fravaccaro/harbour-themepack-xenlism-wildfire
-Source0:        %{name}-%{version}.tar.bz2
-Source100:      harbour-themepack-xenlism-wildfire.yaml
-Requires:       sailfishsilica-qt5 >= 0.10.9, sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.0.8-1
+Summary:    Xenlism Wildfire
+Version:    0.1.3
+Release:    4
+Group:      Qt/Qt
+License:    GPLv3
+URL:        https://github.com/fravaccaro/harbour-themepack-xenlism-wildfire
+Source0:    %{name}-%{version}.tar.bz2
+Source100:  harbour-themepack-xenlism-wildfire.yaml
+Requires:   sailfishsilica-qt5 >= 0.10.9
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -30,6 +29,7 @@ BuildRequires:  desktop-file-utils
 
 %description
 Xenlism Wildfire theme pack for Sailfish OS.
+
 
 %prep
 %setup -q -n %{name}-%{version}
@@ -77,19 +77,19 @@ desktop-file-install --delete-original       \
 
 %post
 chmod +x /usr/share/%{name}/fetchicons.sh
-if [ "$1" = "1" ]; then
-    // First installation
-
-fi
 
 %changelog
+* Sun Oct 28 2018 0.1.3
+- Icons added.
+- Translations updated.
+
 * Sat Oct 20 2018 0.1.2
 - DynClock support.
 - Translations updated.
 
 * Fri Oct 19 2018 0.1.1
 - DynCal support.
-- Icons added
+- Icons added.
 
 * Sun Oct 14 2018 0.1.0
 - First build.
