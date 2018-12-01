@@ -14,7 +14,7 @@ Name:       harbour-themepack-xenlism-wildfire
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Xenlism Wildfire
 Version:    0.2.0
-Release:    2
+Release:    3
 Group:      Qt/Qt
 License:    GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -78,25 +78,3 @@ desktop-file-install --delete-original       \
 
 %post
 chmod +x /usr/share/%{name}/fetchicons.sh
-
-%changelog
-* Sat Nov 24 2018 0.2.0
-- Overlay support.
-
-* Mon Nov 5 2018 0.1.4
-- Icons added.
-
-* Sun Oct 28 2018 0.1.3
-- Icons added.
-- Translations updated.
-
-* Sat Oct 20 2018 0.1.2
-- DynClock support.
-- Translations updated.
-
-* Fri Oct 19 2018 0.1.1
-- DynCal support.
-- Icons added.
-
-* Sun Oct 14 2018 0.1.0
-- First build.

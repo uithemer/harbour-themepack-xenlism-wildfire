@@ -26,7 +26,6 @@ OTHER_FILES += qml/harbour-themepack-xenlism-wildfire.qml \
     qml/cover/CoverPage.qml \
     qml/components/AboutLanguage.qml \
     qml/components/AboutTranslator.qml \
-    rpm/harbour-themepack-xenlism-wildfire.changes.in \
     rpm/harbour-themepack-xenlism-wildfire.spec \
     rpm/harbour-themepack-xenlism-wildfire.yaml \
     harbour-themepack-xenlism-wildfire.desktop \
@@ -41,3 +40,6 @@ TRANSLATIONS +=  translations/*.ts
 HEADERS += \
     src/spawner.h \
     src/themepack.h
+
+DISTFILES += \
+    rpm/harbour-themepack-xenlism-wildfire.changes
