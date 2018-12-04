@@ -161,6 +161,10 @@ Page
               AboutTranslator { text: "kloszes" }
               Item { width: parent.width; height: Theme.paddingLarge }
 
+              AboutLanguage { text: "Slovenščina" }
+              AboutTranslator { text: "Boštjan Štrumbelj" }
+              Item { width: parent.width; height: Theme.paddingLarge }
+
               Label {
                   x: Theme.paddingLarge
                   width: parent.width - (x * 2)
