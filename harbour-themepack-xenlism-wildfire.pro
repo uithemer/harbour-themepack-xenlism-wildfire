@@ -24,8 +24,7 @@ SOURCES += \
 
 OTHER_FILES += qml/harbour-themepack-xenlism-wildfire.qml \
     qml/cover/CoverPage.qml \
-    qml/components/AboutLanguage.qml \
-    qml/components/AboutTranslator.qml \
+    qml/components/*.qml \
     rpm/harbour-themepack-xenlism-wildfire.spec \
     rpm/harbour-themepack-xenlism-wildfire.yaml \
     harbour-themepack-xenlism-wildfire.desktop \

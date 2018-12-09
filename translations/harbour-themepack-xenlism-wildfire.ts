@@ -79,5 +79,13 @@
         <source>Released under the GNU GPLv3 license. Based on &lt;a href=&apos;https://github.com/xenlism/wildfire&apos;&gt;Xenlism Wildfire&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Credits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
