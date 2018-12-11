@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
 <context>
     <name>FirstPage</name>
     <message>
@@ -11,11 +11,11 @@
     </message>
     <message>
         <source>From here you can request missing icons for your favorite apps.</source>
-        <translation>你可以在此处为你喜爱的软件请求适配图标。</translation>
+        <translation>你可以为你喜欢的图标请求适配</translation>
     </message>
     <message>
         <source>This will open your e-mail client, from which you can send me the name of the apps you would like to be included in this theme.</source>
-        <translation>这将打开您的电子邮件客户端，您可以向我发送你希望适配的应用名称。</translation>
+        <translation>该操作将会打开你的邮件客户端，你可以像我发送你想要适配的应用名称。</translation>
     </message>
     <message>
         <source>Request icons</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation>如果您想创建与UI Themer兼容的主题，请阅读参考资料。</translation>
+        <translation>如果你想要开发一个适用于UI Themer的主题，请阅读参考文件。</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation>如果你喜欢我的作品，不妨考虑请我喝瓶啤酒！</translation>
+        <translation>如果你喜欢我的作品，不妨考虑请我喝杯啤酒！</translation>
     </message>
     <message>
         <source>Donate</source>
@@ -51,7 +51,7 @@
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation>在Transifex项目页面上请求一种新语言或对现有语言作出贡献。</translation>
+        <translation>在Transifex 页面请求新的语言或对现有的语言做出贡献。</translation>
     </message>
     <message>
         <source>Transifex</source>
@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>By requesting new icons, you accept sending the name of the unthemed apps installed on your device, along with your e-mail address. This data will be used by me only for the intended purpose and NEVER disclosed to thirdy parties. Your app names and e-mail address will be deleted right after.</source>
-        <translation>为了请求新的图标，你需要同意将设备中安装的应用的名称连同你的邮箱地址发送给我。数据仅会被用于预期的目的，绝不会泄露给任何第三方。你发送的软件名称和邮箱地址之后将被立刻删除。</translation>
+        <translation>为了请求新的图标，你需要同意安装在设备上的未经处理的应用程序的名称以及电子邮件地址。这些数据只供我使用，绝不向第三方披露。包括您的应用程序名称和电子邮件地址将被立即删除。</translation>
     </message>
     <message>
         <source>If you plan to request icons, please consider to donate! It helps me staying motivated and maintaining the project.</source>
@@ -71,11 +71,11 @@
     </message>
     <message>
         <source>Thank you for installing Xenlism Wildfire!</source>
-        <translation>感谢您安装 Xenlism Wildfire!</translation>
+        <translation>感谢您安装Xenlism Wildfire!</translation>
     </message>
     <message>
         <source>Released under the GNU GPLv3 license. Based on &lt;a href=&apos;https://github.com/xenlism/wildfire&apos;&gt;Xenlism Wildfire&lt;/a&gt;.</source>
-        <translation>根据GNU GPLv3许可证发布.基于&lt;a href=&apos;https://github.com/xenlism/wildfire&apos;&gt;Xenlism Wildfire&lt;/a&gt;.</translation>
+        <translation>根据GNU GPLv3许可证发布。基于&lt;a href=&apos;https://github.com/xenlism/wildfire&apos;&gt;Xenlism Wildfire&lt;/a&gt;。</translation>
     </message>
     <message>
         <source>Credits</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>机械键盘灵感源自Sebastian Wolf开发的&lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt;。</translation>
+        <translation>键盘导航灵感源于 Sebastian Wolf的&lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt;。</translation>
     </message>
 </context>
 </TS>
