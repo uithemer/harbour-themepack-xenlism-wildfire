@@ -65,17 +65,6 @@ if [ "$(ls ./apk/scalable)" ]; then
         done
 fi
 
-# Resize DynCal icons
-if [ "$(ls ./dyncal/scalable/)" ]; then
-    ls ./dyncal/scalable/*.svg | while read file
-        do
-            filename=$(basename "$file")
-            destFile=`echo $filename | sed 's/\.svg/\.png/'`
-            inkscape -f $file -w 86 -h 86 -e ./dyncal/86x86/$destFile
-            inkscape -f $file -w 256 -h 256 -e ./dyncal/256x256/$destFile
-        done
-fi
-
 # Resize overlays
 if [ "$(ls ./overlay/)" ]; then
     ls ./overlay/*.svg | while read file
