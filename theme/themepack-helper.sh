@@ -62,6 +62,7 @@ if [ "$(ls ./apk/scalable)" ]; then
             destFile=`echo $filename | sed 's/\.svg/\.png/'`
             inkscape -f $file -w 86 -h 86 -e ./apk/86x86/$destFile
             inkscape -f $file -w 128 -h 128 -e ./apk/128x128/$destFile
+            inkscape -f $file -w 192 -h 192 -e ./apk/192x192/$destFile
         done
 fi
 

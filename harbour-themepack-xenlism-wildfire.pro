@@ -30,7 +30,7 @@ OTHER_FILES += qml/harbour-themepack-xenlism-wildfire.qml \
     harbour-themepack-xenlism-wildfire.desktop \
     qml/pages/FirstPage.qml
 
-SAILFISHAPP_ICONS = 86x86
+SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
 CONFIG += sailfishapp_i18n
 
