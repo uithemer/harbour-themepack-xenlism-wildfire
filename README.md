@@ -1,3 +1,12 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Xenlism Wildfire for Sailfish OS"
+permalink: /
+---
+
+
 # Xenlism Wildfire for Sailfish OS
 
 Xenlism Wildfire for Sailfish OS.
