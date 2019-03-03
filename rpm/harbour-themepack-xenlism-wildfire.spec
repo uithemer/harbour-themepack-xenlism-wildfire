@@ -18,7 +18,7 @@ Release:        1
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
-URL:            https://github.com/fravaccaro/harbour-themepack-xenlism-wildfire
+URL:            https://github.com/uithemer/harbour-themepack-xenlism-wildfire
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      harbour-themepack-xenlism-wildfire.yaml
 Requires:       sailfishsilica-qt5 >= 0.10.9, sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.0.8-1
