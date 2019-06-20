@@ -10,10 +10,13 @@ OTHER_SOURCES += $$MY_FILES
 my_resources.path = $$PREFIX/share/$$TARGET
 my_resources.files = $$MY_FILES
 
+appicons.files = appicons/*
+appicons.path = /usr/share/icons/hicolor/
+
 themepack.files = theme/*
 themepack.path = $$PREFIX/share/$$TARGET
 
-INSTALLS += my_resources themepack
+INSTALLS += my_resources appicons themepack
 
 CONFIG += sailfishapp c++11
 
