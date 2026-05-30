@@ -2,21 +2,30 @@
 #define THEMEPACK_H
 
 #include <QObject>
+#include <QFutureWatcher>
+#include <QString>
 
 class ThemePack : public QObject
 {
     Q_OBJECT
 
-    public:
-        explicit ThemePack(QObject* parent = 0);
+public:
+    explicit ThemePack(QObject *parent = 0);
 
-    public slots:
-        QString whoami() const;                         // function to test what user runs app
-        void fetchIcons() const;
+    Q_INVOKABLE void fetchIcons(const QString &packPath,
+                                const QString &recipient,
+                                const QString &subject);
 
-    signals:
-        void iconsFetched();
+private slots:
+    void onIconRequestFinished();
+
+private:
+    QFutureWatcher<QString> *m_iconRequestWatcher;
+    QString m_pendingRecipient;
+    QString m_pendingSubject;
+
+signals:
+    void iconsFetched();
 };
 
 #endif // THEMEPACK_H
-

@@ -1,11 +1,32 @@
-remote_theme: pmarsceill/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.10.2
+
 title: Xenlism Wildfire for Sailfish OS
 description: Xenlism Wildfire for Sailfish OS
-baseurl: ""
-exclude: ["appicons/", "other/", "qml/", "rpm/", "scripts/", "src/", "theme/", "translations/", "LICENSE", "*.desktop", "*.pro"]
 
-url: "https://uithemer.github.io/harbour-themepack-xenlism-wildfire"
+url: "https://uithemer.github.io"
+baseurl: "/harbour-themepack-xenlism-wildfire"
+repository: uithemer/harbour-themepack-xenlism-wildfire
+
 search_enabled: false
+
 aux_links:
-    "Xenlism Wildfire on GitHub":
-      - "//github.com/uithemer/harbour-themepack-xenlism-wildfire"
+  "Xenlism Wildfire on GitHub":
+    - "https://github.com/uithemer/harbour-themepack-xenlism-wildfire"
+
+exclude:
+  - appicons/
+  - other/
+  - qml/
+  - rpm/
+  - src/
+  - theme/
+  - translations/
+  - .sfdk/
+  - RPMS/
+  - LICENSE
+  - "*.desktop"
+  - "*.pro"
+  - "*.pro.user"
+  - .gitignore
+  - .jekyll-cache/
+  - vendor/

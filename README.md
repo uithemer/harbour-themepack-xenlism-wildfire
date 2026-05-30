@@ -11,7 +11,7 @@ permalink: /
 
 Xenlism Wildfire for Sailfish OS.
 
-[![GitHub license](https://img.shields.io/github/license/uithemer/harbour-themepack-xenlism-wildfire.svg)](https://github.com/uithemer/harbour-themepack-xenlism-wildfire/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/uithemer/harbour-themepack-xenlism-wildfire.svg)](https://github.com/uithemer/harbour-themepack-xenlism-wildfire/issues) [![GitHub releases](https://img.shields.io/github/release/uithemer/harbour-themepack-xenlism-wildfire.svg)](https://github.com/uithemer/harbour-themepack-xenlism-wildfire/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/fravaccaro)
+[![GitHub license](https://img.shields.io/github/license/uithemer/harbour-themepack-xenlism-wildfire.svg)](https://github.com/uithemer/harbour-themepack-xenlism-wildfire/blob/main/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/uithemer/harbour-themepack-xenlism-wildfire.svg)](https://github.com/uithemer/harbour-themepack-xenlism-wildfire/issues) [![GitHub releases](https://img.shields.io/github/release/uithemer/harbour-themepack-xenlism-wildfire.svg)](https://github.com/uithemer/harbour-themepack-xenlism-wildfire/releases/latest) [![Donate on Liberapay](https://img.shields.io/badge/Donate-Liberapay-orange.svg)](https://liberapay.com/fravaccaro)
 
 ## Request a new icon
 
@@ -19,15 +19,13 @@ You can request a new icon via the theme companion app or by [opening an issue](
 
 ## Create custom theme packs
 
-Documentation on how to create theme packs available [here](https://uithemer.github.io/themepacksupport-sailfishos/docs/getstarted).
+Documentation on how to create theme packs available [here](https://uithemer.github.io/harbour-muoto/).
 
 ## Translate
 
-Languages supported:
+Languages supported on [Transifex](https://explore.transifex.com/fravaccaro/xenlism-wildfire/).
 
-[![Languages supported](https://www.transifex.com/_/charts/redirects/fravaccaro/xenlism-wildfire/image_png/harbour-themepack-xenlism-wildfirets)](https://www.transifex.com/fravaccaro/xenlism-wildfire/dashboard/)
-
-Request a new language or contribute to existing languages on the [Transifex project page](https://www.transifex.com/fravaccaro/xenlism-wildfire/dashboard/).
+Request a new language or contribute to existing languages on the [Transifex project page](https://explore.transifex.com/fravaccaro/xenlism-wildfire/).
 
 ## Builds
 
