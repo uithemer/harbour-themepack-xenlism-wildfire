@@ -14,7 +14,7 @@ Name:       harbour-themepack-xenlism-wildfire
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        Xenlism Wildfire
 Version:        0.2.9
-Release:        1
+Release:        2
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <me@fravaccaro.com>
