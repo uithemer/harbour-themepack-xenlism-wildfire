@@ -29,7 +29,7 @@ Request a new language or contribute to existing languages on the [Transifex pro
 
 ## Builds
 
-Builds available [here](https://openrepos.net/content/fravaccaro/xenlism-wildfire-icons).
+Builds available [here](https://openrepos.net/content/fravaccaro/xenlism-wildfire-theme-pack).
 
 ## Credits
 
