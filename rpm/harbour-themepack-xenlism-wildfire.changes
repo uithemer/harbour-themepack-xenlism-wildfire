@@ -7,6 +7,7 @@
   with "remove failed" warnings and leaves nothing behind.
 - CI verifies the committed PNGs against their SVG sources instead of silently
   re-exporting them at build time.
+- Declare [X-Sailjail] in the desktop file, matching the other theme packs.
 
 * Sat May 30 2026 0.2.9
 - Added icons.

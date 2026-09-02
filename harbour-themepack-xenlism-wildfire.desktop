@@ -4,3 +4,8 @@ X-Nemo-Application-Type=silica-qt5
 Icon=harbour-themepack-xenlism-wildfire
 Exec=invoker --type=generic -s /usr/bin/harbour-themepack-xenlism-wildfire
 Name=Xenlism Wildfire
+
+[X-Sailjail]
+OrganizationName=org.themepack.xenlism-wildfire
+ApplicationName=harbour-themepack-xenlism-wildfire
+Sandboxing=Disabled
