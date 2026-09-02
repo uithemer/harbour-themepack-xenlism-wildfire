@@ -44,7 +44,7 @@
 	<path style="fill:url(#SVGID_4_);" d="M433.3,433.3c-70.3,70.3-284.3,70.3-354.6,0S8.4,149,78.7,78.7s284.3-70.3,354.6,0
 		S503.6,363,433.3,433.3z"/>
 	
-		<radialGradient id="path230_1_" cx="-0.1619" cy="512.2744" r="0.8001" gradientTransform="matrix(393.0496 0 0 -393.0496 318.1251 201780.75)" gradientUnits="userSpaceOnUse">
+		<radialGradient id="path230_1_" cx="-63.63473" cy="201349.24801" r="314.478985" gradientTransform="matrix(1,0,0,-1,318.1251,201780.75)" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#FAAC18"/>
 		<stop  offset="1.933880e-02" style="stop-color:#FAAC18"/>
 		<stop  offset="0.3892" style="stop-color:#F16630"/>
