@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #    Theme pack support for Sailfish OS - Enables theme pack support in Sailfish OS.
-#    Copyright (C) 2015-2016  fravaccaro fravaccaro90@gmail.com - Initial release
+#    Copyright (C) 2015-2016  fravaccaro me@fravaccaro.com - Initial release
 #    Copyright (C) 2016  dfstorm dfstorm@riseup.net - Change from ImageMagik to Inkscape
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -21,6 +21,7 @@
 # Usage
 # Place some icons in scalable folders and launch this script from the theme folder.
 
+set -euo pipefail
 shopt -s nullglob
 
 cd "$(dirname "$0")" || exit 1
@@ -55,7 +56,7 @@ export_svg_sizes() {
         return
     fi
 
-    local actions="export-type:png"
+    local actions="export-area-page;export-png-color-mode:RGBA_8;export-type:png"
     while [ $# -ge 3 ]; do
         local w=$1
         local h=$2
@@ -64,10 +65,64 @@ export_svg_sizes() {
         mkdir -p "$(dirname "$out")"
         out_abs="$(realpath -m "$out")"
         echo "Exporting $input → $out" >&2
-        actions="${actions};export-filename:${out_abs};export-width:${w};export-height:${h};export-do"
+        actions="${actions};export-area-page;export-filename:${out_abs};export-width:${w};export-height:${h};export-do"
         shift 3
     done
     inkscape "$input" --actions="$actions"
+}
+
+# Fail if a Jolla PNG is not the expected size or not 8-bit RGBA.
+verify_jolla_pngs() {
+    python3 - <<'PY'
+import os, struct, sys
+
+expected = {
+    "z1.0": 86,
+    "z1.25": 108,
+    "z1.5": 129,
+    "z1.5-large": 129,
+    "z1.75": 151,
+    "z2.0": 172,
+}
+
+errors = []
+root = "jolla"
+if not os.path.isdir(root):
+    sys.exit(0)
+
+for dirpath, _, files in os.walk(root):
+    for name in files:
+        if not name.endswith(".png"):
+            continue
+        path = os.path.join(dirpath, name)
+        parts = path.split(os.sep)
+        tier = next((p for p in parts if p in expected), None)
+        if tier is None:
+            continue
+        want = expected[tier]
+        with open(path, "rb") as fh:
+            if fh.read(8) != b"\x89PNG\r\n\x1a\n":
+                errors.append("%s: not a PNG" % path)
+                continue
+            length = struct.unpack(">I", fh.read(4))[0]
+            ctype = fh.read(4)
+            data = fh.read(length)
+            if ctype != b"IHDR" or len(data) < 13:
+                errors.append("%s: missing IHDR" % path)
+                continue
+            w, h, bit, color = struct.unpack(">IIBB", data[:10])
+        if (w, h) != (want, want):
+            errors.append("%s: %dx%d (expected %dx%d)" % (path, w, h, want, want))
+        if bit != 8 or color != 6:
+            errors.append("%s: bit=%d color=%d (expected 8-bit RGBA)" % (path, bit, color))
+
+if errors:
+    print("Jolla PNG verification failed:", file=sys.stderr)
+    for err in errors:
+        print("  " + err, file=sys.stderr)
+    sys.exit(1)
+print("Jolla PNG verification OK", file=sys.stderr)
+PY
 }
 
 # Resize Jolla stock icons
@@ -146,5 +201,7 @@ if [ -d ./overlay ] && [ "$(ls -A ./overlay/*.svg 2>/dev/null)" ]; then
             512 512 "./overlay/$destFile"
     done
 fi
+
+verify_jolla_pngs
 
 exit 0
